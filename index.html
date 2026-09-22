@@ -1,0 +1,298 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Course Library</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0f1512;--panel:#161d19;--line:#26302a;--ink:#eef2ee;--dim:#9db0a4;--accent:#6fae5f;--accent2:#c8a24a;}
+*{box-sizing:border-box}
+body{margin:0;background:
+  radial-gradient(1200px 600px at 80% -10%, #1c2a20 0%, transparent 60%),
+  var(--bg);
+  color:var(--ink);font-family:Inter,system-ui,sans-serif;min-height:100vh}
+.wrap{max-width:1140px;margin:0 auto;padding:48px 24px 72px}
+header{display:flex;flex-wrap:wrap;align-items:baseline;gap:12px 20px;border-bottom:1px solid var(--line);padding-bottom:22px;margin-bottom:34px}
+h1{font-family:Fraunces,serif;font-weight:600;font-size:clamp(28px,4vw,44px);margin:0;letter-spacing:-.01em}
+.count{color:var(--accent);font-weight:600;font-size:15px}
+.sub{color:var(--dim);font-size:14px;width:100%;margin-top:2px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px}
+.card{position:relative;display:flex;flex-direction:column;gap:6px;background:var(--panel);
+  border:1px solid var(--line);border-radius:12px;padding:18px 18px 16px;text-decoration:none;color:inherit;
+  transition:border-color .15s, transform .15s, background .15s}
+.card:hover{border-color:var(--accent);transform:translateY(-2px);background:#1a231d}
+.name{font-family:Fraunces,serif;font-weight:600;font-size:19px;line-height:1.15}
+.meta{color:var(--dim);font-size:12.5px;font-variant-numeric:tabular-nums}
+.play{margin-top:6px;color:var(--accent);font-weight:600;font-size:13px;opacity:.55;transition:opacity .15s}
+.card:hover .play{opacity:1}
+footer{margin-top:40px;color:var(--dim);font-size:12.5px;line-height:1.6}
+footer b{color:var(--accent2);font-weight:600}
+</style></head><body>
+<div class="wrap">
+  <header>
+    <h1>Course Library</h1>
+    <span class="count">51 playable</span>
+    <span class="sub">Self-contained WebGL sims built from real satellite imagery + elevation. Click any course to play. Toward a target of 334 of the world's top courses.</span>
+  </header>
+  <div class="grid">
+      <a class="card" href="./Ailsa_Shore.html">
+        <span class="name">Ailsa Shore</span>
+        <span class="meta">18 holes &middot; 7,490.9 yds &middot; par 70</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Auld_Links.html">
+        <span class="name">Auld Links</span>
+        <span class="meta">18 holes &middot; 7,305.0 yds &middot; par 72</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Azalea_National.html">
+        <span class="name">Azalea National</span>
+        <span class="meta">18 holes &middot; 7,555.0 yds &middot; par 72</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Ballybunion.html">
+        <span class="name">Ballybunion</span>
+        <span class="meta">18 holes &middot; 6,272.1 yds &middot; par 71</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Bandon_Dunes.html">
+        <span class="name">Bandon Dunes</span>
+        <span class="meta">18 holes &middot; 7,443.9 yds &middot; par 73</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Barnbougle_Dunes.html">
+        <span class="name">Barnbougle Dunes</span>
+        <span class="meta">18 holes &middot; 6,729.7 yds &middot; par 71</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Barry_Burn.html">
+        <span class="name">Barry Burn</span>
+        <span class="meta">18 holes &middot; 7,125.1 yds &middot; par 72</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Bethpage_Black.html">
+        <span class="name">Bethpage Black</span>
+        <span class="meta">18 holes &middot; 7,433.1 yds &middot; par 70</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Cabot_Cliffs.html">
+        <span class="name">Cabot Cliffs</span>
+        <span class="meta">18 holes &middot; 6,805.7 yds &middot; par 72</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Cabot_Highlands.html">
+        <span class="name">Cabot Highlands</span>
+        <span class="meta">18 holes &middot; 7,338.3 yds &middot; par 71</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Cape_Kidnappers.html">
+        <span class="name">Cape Kidnappers</span>
+        <span class="meta">18 holes &middot; 7,187.0 yds &middot; par 71</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Chambers_Bay.html">
+        <span class="name">Chambers Bay</span>
+        <span class="meta">18 holes &middot; 7,652.6 yds &middot; par 72</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Cruden_Bay.html">
+        <span class="name">Cruden Bay</span>
+        <span class="meta">18 holes &middot; 6,425.7 yds &middot; par 71</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Cypress_Head.html">
+        <span class="name">Cypress Head</span>
+        <span class="meta">18 holes &middot; 6,563.1 yds &middot; par 72</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Dune_Valleys.html">
+        <span class="name">Dune Valleys</span>
+        <span class="meta">18 holes &middot; 7,174.5 yds &middot; par 72</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Dunluce_Head.html">
+        <span class="name">Dunluce Head</span>
+        <span class="meta">18 holes &middot; 7,342.0 yds &middot; par 71</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Erin_Hills.html">
+        <span class="name">Erin Hills</span>
+        <span class="meta">18 holes &middot; 7,953.0 yds &middot; par 79</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Foothill_West.html">
+        <span class="name">Foothill West</span>
+        <span class="meta">18 holes &middot; 7,477.0 yds &middot; par 70</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Furrow_Ridge.html">
+        <span class="name">Furrow Ridge</span>
+        <span class="meta">18 holes &middot; 7,431.0 yds &middot; par 70</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Gullane_Honours.html">
+        <span class="name">Gullane Honours</span>
+        <span class="meta">18 holes &middot; 7,129.900000000001 yds &middot; par 71</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Hirono.html">
+        <span class="name">Hirono</span>
+        <span class="meta">18 holes &middot; 6,817.9 yds &middot; par 72</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Kingsbarns.html">
+        <span class="name">Kingsbarns</span>
+        <span class="meta">18 holes &middot; 7,168.7 yds &middot; par 72</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Kingston_Heath.html">
+        <span class="name">Kingston Heath</span>
+        <span class="meta">18 holes &middot; 6,701.6 yds &middot; par 72</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Lahinch.html">
+        <span class="name">Lahinch</span>
+        <span class="meta">18 holes &middot; 6,890.4 yds &middot; par 71</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Morfontaine.html">
+        <span class="name">Morfontaine</span>
+        <span class="meta">18 holes &middot; 6,686.1 yds &middot; par 71</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Muirfield_Village.html">
+        <span class="name">Muirfield Village</span>
+        <span class="meta">18 holes &middot; 5,313.6 yds &middot; par 63</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./New_South_Wales.html">
+        <span class="name">New South Wales</span>
+        <span class="meta">18 holes &middot; 6,829.8 yds &middot; par 73</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Oakland_Hills.html">
+        <span class="name">Oakland Hills</span>
+        <span class="meta">18 holes &middot; 6,122.9 yds &middot; par 69</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Oakmont_Country_Club.html">
+        <span class="name">Oakmont Country Club</span>
+        <span class="meta">18 holes &middot; 7,249.8 yds &middot; par 70</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Pine_Hollow.html">
+        <span class="name">Pine Hollow</span>
+        <span class="meta">18 holes &middot; 7,181.0 yds &middot; par 70</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Portmarnock.html">
+        <span class="name">Portmarnock</span>
+        <span class="meta">18 holes &middot; 7,502.7 yds &middot; par 72</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Postage_Links.html">
+        <span class="name">Postage Links</span>
+        <span class="meta">18 holes &middot; 7,069.8 yds &middot; par 71</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Prestwick.html">
+        <span class="name">Prestwick</span>
+        <span class="meta">18 holes &middot; 6,266.0 yds &middot; par 69</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Quail_Hollow.html">
+        <span class="name">Quail Hollow</span>
+        <span class="meta">18 holes &middot; 7,340.0 yds &middot; par 71</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Quarry_East.html">
+        <span class="name">Quarry East</span>
+        <span class="meta">18 holes &middot; 6,544.3 yds &middot; par 70</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Riviera.html">
+        <span class="name">Riviera</span>
+        <span class="meta">18 holes &middot; 7,359.0 yds &middot; par 75</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Royal_Hague.html">
+        <span class="name">Royal Hague</span>
+        <span class="meta">18 holes &middot; 6,832.3 yds &middot; par 72</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Royal_Melbourne.html">
+        <span class="name">Royal Melbourne</span>
+        <span class="meta">18 holes &middot; 7,228.2 yds &middot; par 75</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Sand_Hills.html">
+        <span class="name">Sand Hills</span>
+        <span class="meta">18 holes &middot; 6,982.2 yds &middot; par 73</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Sandwich_Dunes.html">
+        <span class="name">Sandwich Dunes</span>
+        <span class="meta">18 holes &middot; 7,204.0 yds &middot; par 70</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Sebonack_Hills.html">
+        <span class="name">Sebonack Hills</span>
+        <span class="meta">18 holes &middot; 7,440.0 yds &middot; par 70</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Shinnecock_Hills_Golf_Club.html">
+        <span class="name">Shinnecock Hills Golf Club</span>
+        <span class="meta">18 holes &middot; 7,331.5 yds &middot; par 70</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Slieve_Links.html">
+        <span class="name">Slieve Links</span>
+        <span class="meta">18 holes &middot; 7,186.0 yds &middot; par 71</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./St_Georges_Hill.html">
+        <span class="name">St Georges Hill</span>
+        <span class="meta">18 holes &middot; 4,968.9 yds &middot; par 64</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Stillwater_Shore.html">
+        <span class="name">Stillwater Shore</span>
+        <span class="meta">18 holes &middot; 7,075.0 yds &middot; par 71</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Struie_Links.html">
+        <span class="name">Struie Links</span>
+        <span class="meta">18 holes &middot; 6,647.8 yds &middot; par 70</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Sunningdale_Old.html">
+        <span class="name">Sunningdale Old</span>
+        <span class="meta">18 holes &middot; 4,991.6 yds &middot; par 63</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Swinley_Forest.html">
+        <span class="name">Swinley Forest</span>
+        <span class="meta">18 holes &middot; 6,080.400000000001 yds &middot; par 71</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Tara_Iti.html">
+        <span class="name">Tara Iti</span>
+        <span class="meta">18 holes &middot; 6,967.1 yds &middot; par 72</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Te_Arai_South.html">
+        <span class="name">Te Arai South</span>
+        <span class="meta">18 holes &middot; 7,710.7 yds &middot; par 77</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+      <a class="card" href="./Whistling_Straits.html">
+        <span class="name">Whistling Straits</span>
+        <span class="meta">18 holes &middot; 7,540.6 yds &middot; par 72</span>
+        <span class="play">Play &rarr;</span>
+      </a>
+  </div>
+  <footer>
+    Each page renders 3M grass blades, traced fairways, real terrain (LIDAR where available) and per-course landscaping. <b>Best on a decent GPU</b> &mdash; the GPU pixel-streaming build (in progress) will make any device smooth.
+  </footer>
+</div>
+</body></html>
